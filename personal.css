@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300;500;600;700&display=swap');
+
+*{
+    margin:0px ;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #0c021c; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.first{
+    /* background-color: rgb(28, 19, 61); */
+    background-color: #0c021c;
+    display: flex;
+    color: white;
+}
+.first .rt li i {
+    cursor: pointer;
+}
+icon{
+    color: white;
+    font-size: 80px;
+}
+nav{
+    position: fixed;
+    padding-left: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none;
+    margin: 20px;
+    font-size: 20px;
+}
+h6{
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin: 10px 10px 10px 10px;
+}
+.yu{ 
+    transform: rotate(270deg);
+}
+.yu a{
+    color: white;
+}
+li a:hover{
+    color: rgb(243, 134, 152);
+}
+.front{
+    z-index: 0;
+    margin-left:280px;
+    object-fit: contain;
+}
+.first2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.front2{
+    align-items: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-left: 50px;
+}
+.u{
+    font-size: 90px;
+    font-weight: 400 !important;
+}
+#lio{
+    font-size: 30px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+.second2{
+    margin:0px;
+    background-color: #0c021c;
+    display: flex;
+    justify-content: center;
+    padding-left: 270px;
+    align-items: center;
+}
+
+.second21{
+     background-color: rgb(235, 119, 138);
+     width: 500px;
+     padding: 150px;
+     padding-top: 300px;
+     padding-bottom: 300px;
+     font-size: 50px;
+     color: white;
+     text-align: center;
+     align-items: center;
+     
+}
+.second22{
+    background-color: white;
+    height: 690px;
+    width: 620px;
+}
+#rtf{
+    padding: 30px;
+    font-size: 30px;
+    font-weight :bold;
+    color: rgb(84, 44, 124);
+    text-align: center;
+}
+#huj{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(57, 15, 75) !important;
+    margin: 10px;
+    /* border: #0c021c solid 2px; */
+    padding: 10px;
+}
+.second23{
+    display: flex;
+}
+.second23 ul{
+    /* border:2px solid green ; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-right: 20px;
+
+}
+.second23 li{
+    margin-bottom: 0px;
+    color: rgb(79, 68, 49);
+}
+.second23 b{
+    font-weight: 900;
+    color: rgb(77, 28, 123);
+}
+.jkl{
+     /* border: 2px solid royalblue; */
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+}
+.jkl button{
+    background: rgb(168, 85, 184);
+    margin: 10px;
+    padding: 12px 26px;
+    border-radius: 40px;
+    font-size: 14px;
+    width: 150px;
+    border: none;
+}
+.jkl button:hover{
+    background: transparent;
+    border: 2px solid rgb(145, 50, 164);
+}
+
+.jkl button a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.jkl button a:hover {
+    color: rgb(145, 50, 164);
+}
+
+
+.icon5{
+    font-size: 160px;
+    color: rgb(152, 93, 163);
+}
+.icon4{
+    color: white;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.sk {
+  width: 95%; /* Ful width */
+  background-color: #ddd; /* Grey background */
+ 
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+    
+  /* padding-bottom: 5px; Add bottom padding */
+  padding-right: 5px;
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #605777;} /* Green */
+.css {width: 80%; background-color: #605777;} /* Blue */
+.js {width: 65%; background-color: #605777;} /* Red */
+.php {width: 60%; background-color: #605777;} /* Dark Grey */
+.xml {width: 40%;background-color: #605777;}
+.ajax {width: 50%;background-color: #605777;}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #0c021c;
+}
+.third-2{
+    background-color: #7f4978;
+    color: white;
+    font-size: 50px;
+    padding: 100px;
+    margin-right: 115px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.third-1{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 280px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    background-color: white;
+}
+.third-1 p{
+    /* padding: 10px; */
+    color: rgb(63, 47, 97);
+    font-size: 20px;
+    
+}
+
+.certificates {
+    padding-left: 280px;
+    padding-right: 115px;
+    background-color: #0c021c;
+}
+
+form {
+    background: white;
+
+}
+form .n {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .n input:nth-child(1) {
+    margin-right: 10px;
+}
+
+.form-group input {
+    /* background: transparent; */
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    padding: 12px 0 12px 16px;
+    outline: none;
+    /* border: none; */
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-left: none;
+    /* border-bottom: 1px solid var(--text-clr); */
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group .address {
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+form textarea {
+    width: 100%;
+    background-color: #f1f0f0;
+    border-top: none;
+    padding: 12px 0 12px 16px;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-left: none;
+    outline: none;
+}
+
+.item {
+    margin: 0 0 50px 0;
+    padding: 30px;
+}
+.fourth{
+    background-color: #0c021c;
+    height: 40rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fourth-1{
+    background-color: #392d55;
+    color: white;
+    margin-left: 280px;
+    padding: 180px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+.fourth-2{
+    width: 800px;
+    margin-right: 115px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+form button {
+    background: rgb(197, 92, 110);
+    padding: 20px 40px;
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+form button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+form button a:hover {
+    color: rgb(235, 119, 138);
+}
+
+form button:hover {
+    border: 2px solid rgb(235, 119, 138);
+    background: transparent;
+}
